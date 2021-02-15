@@ -1,3 +1,2 @@
-# RESPONSIVE Personal PORTFOLIO Website HTML CSS And JAVASCRIPT
-
-## Video (https://youtu.be/J8g9gyzhEoM)
+# Skhulu95.github.io/portfolio
+This is my personal web portfolio.

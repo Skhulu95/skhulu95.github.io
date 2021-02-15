@@ -552,7 +552,7 @@ a.btn:active {
   color: #dd9a05;
 }
 
-.form h2 {
+/* .form h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -582,7 +582,7 @@ a.btn:active {
   width: 100%;
   resize: vertical;
   margin-bottom: 3rem;
-}
+} */
 
 @media only screen and (max-width: 768px) {
   .contact-center {

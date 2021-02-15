@@ -1,9 +1,9 @@
 {
-  "name": "portfolio-site",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "My Personal Portfolio",
   "main": "index.html",
-  "homepage": "https://Skhulu95.github.io/portfolio",
+  "homepage": "https://Skhulu95.github.io",
   "author": "Thabiso Klip",
   "license": "MIT",
   "dependencies": {

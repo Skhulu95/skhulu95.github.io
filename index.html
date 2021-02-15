@@ -10,6 +10,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- AOS -->
     <link
       rel="stylesheet"
@@ -23,6 +24,71 @@
     <!-- Custom StyleSheet -->
     <link rel="stylesheet" href="styles.css" />
     <title>Portfolio Website</title>
+    <style>
+      
+.contact form {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact form div {
+    margin: 0;
+}
+
+.contact form label {
+    display: block;
+}
+
+.contact form input,
+.contact form textarea,
+.contact form button {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form textarea {
+    min-height: 100px;
+}
+
+.contact form .full {
+    grid-column: 1/3;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+    border: 2px solid #369;
+}
+
+.contact form button {
+    background: #c9e6ff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    transition: all 1s ease-out;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+    background: #92bde7;
+    color: #fff;
+}
+
+@media(max-width:500px) {
+    .brand {
+        font-size: 1.5rem;
+    }
+    .contact form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+    </style>
   </head>
   <body>
     <!-- Header -->
@@ -129,8 +195,8 @@
           <span><i class="fab fa-accusoft"></i></span>
           <h2>Web Design</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            exercitationem numquam porro asperiores neque architecto.
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            exercitationem numquam porro asperiores neque architecto. -->
           </p>
         </div>
 
@@ -138,8 +204,8 @@
           <span><i class="fas fa-chart-line"></i></span>
           <h2>Advertising</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            exercitationem numquam porro asperiores neque architecto.
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            exercitationem numquam porro asperiores neque architecto. -->
           </p>
         </div>
 
@@ -147,8 +213,8 @@
           <span><i class="fas fa-blender-phone"></i></span>
           <h2>Apps Design</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            exercitationem numquam porro asperiores neque architecto.
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            exercitationem numquam porro asperiores neque architecto. -->
           </p>
         </div>
       </div>
@@ -198,17 +264,21 @@
               <span>95%</span>
             </div>
           </div>
+          <div class="skills-box">
+            <h4>MySql</h4>
+            <div class="skills-ilt">
+              <div class="skills-bar mysql"></div>
+              <span>75%</span>
+            </div>
+          </div>
         </div>
 
         <div class="right" data-aos="fade-left" data-aos-duration="2000">
           <h3>My creative skills and experience</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
-            tempora distinctio sed. Animi, doloribus est. Suscipit praesentium
-            tenetur libero eos! Suscipit voluptatem qui, nulla accusantium
-            deleniti nam recusandae officiis possimus at voluptate cupiditate
-            soluta nostrum deserunt consequuntur, ut quis eligendi? Quidem et
-            doloremque cupiditate veniam optio corporis voluptatum, animi nemo!
+            Technology has made my life easy, not knowing how some of the basic tech stuff was made has always fascinated me from a
+					very young age. My passion though for coding started in primary school when I stumbled upon Inspect elements while I was
+					messing around on my father’s computer. Since then I always wanted to learn about computer languages.
           </p>
           <a href="./skills.html" class="btn">Read more</a>
         </div>
@@ -239,8 +309,7 @@
                   </p>
                 </div>
               </li>
-              <br>
-              <br>
+              
               <li class="glide__slide">
                 <div class="team">
                   <div class="img-cover">
@@ -253,7 +322,7 @@
                   </p>
                 </div>
               </li>
-              <br>
+              
               <li class="glide__slide">
                 <div class="team">
                   <div class="img-cover">
@@ -270,7 +339,7 @@ I highly recommend him for a fullstack position, with a strong focus to the back
                   </p>
                 </div>
               </li>
-              <br>
+              
               
             </ul>
           </div>
@@ -283,45 +352,25 @@ I highly recommend him for a fullstack position, with a strong focus to the back
       <div class="title">
         <h1>Contact me</h1>
       </div>
-
-      <div class="contact-center container">
-      </div>
       <div class="contact-center container">
         <div class="left" data-aos="fade-down-right" data-aos-duration="2000">
-          <div class="boxes">
-            <div>
-                <a href="mailto:thebzklip0@gmail.com?subject=Mail from my Portfolio"><span class="text-secondary">Email: </span> thebzklip0@gmail.com</a>
-                
-            </div>
-            <div>
-                <span class="text-secondary">Phone: </span> 081 582 6467
-            </div>
-            <div>
-                <span class="text-secondary">Address: </span> 55 Fezeka Street, Guguletu, Cape Town
-            </div>
-            
-        </div>
-          
+          <img src="./img/email.jpg" height = "145px" width="55%" loading="lazy">
         </div>
         <div class="right" data-aos="fade-up-left" data-aos-duration="2000">
           <span class="text-secondary">
-            <h2>Email Me</h2>
+            <h2>Email Me</h2><br/>
         </span>
         <form action="https://formspree.io/mvowwqvl" method="POST">
-            <label>Name:</label><br>
-            <input type="name" name="name" /><br>
-            <label>Company:</label><br>
-            <input type="text" name="company" /><br>
-            <label>
-                Your email:
-                <input type="text" name="_replyto">
-            </label><br>
-            <label>Phone:</label><br>
-            <input type="tel" name="tel" /><br>
-            <label>
-                Your message:
-                <textarea name="message"></textarea>
-            </label><br>
+            <label>Name:</label><br/>
+            <input type="name" name="name" /><br/>
+            <label>Company:</label><br/>
+            <input type="text" name="company" /><br/>
+            <label>Email:</label><br/>
+            <input type="text" name="_replyto"><br/>
+            <label>Phone:</label><br/>
+            <input type="tel" name="tel" /><br/>
+            <label>Your message:</label><br/>
+            <textarea name="message"></textarea><br/>
 
             <!-- your other form fields go here -->
 
@@ -343,6 +392,7 @@ I highly recommend him for a fullstack position, with a strong focus to the back
         window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
         formbutton("create", { action: "https://formspree.io/mvowwqvl" })
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <!-- AOS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <!-- Typeit -->

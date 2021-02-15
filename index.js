@@ -108,15 +108,15 @@ if (glide)
   new Glide(glide, {
     type: "carousel",
     startAt: 0,
-    perView: 3,
+    perView: 1,
     gap: 30,
     hoverpause: true,
-    autoplay: 2000,
+    autoplay: 4000,
     animationDuration: 800,
     animationTimingFunc: "cubic-bezier(0.165, 0.840, 0.440, 1.000)",
     breakpoints: {
       996: {
-        perView: 2,
+        perView: 1,
       },
       768: {
         perView: 1,

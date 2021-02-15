@@ -1,2 +1,2 @@
-# Skhulu95.github.io/
-This is my personal web portfolio.
+# RESPONSIVE Personal PORTFOLIO Website HTML CSS And JAVASCRIPT
+

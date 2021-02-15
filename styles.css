@@ -534,6 +534,10 @@ a.btn:active {
   width: 95%;
 }
 
+.skills-box .mysql {
+  width: 75%;
+}
+
 .skills-box span {
   position: absolute;
   bottom: 10%;
@@ -645,7 +649,7 @@ a.btn:active {
   margin-bottom: 1rem;
 }
 
-/* .form input,
+.form input,
 .form textarea {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
@@ -670,7 +674,7 @@ a.btn:active {
   width: 100%;
   resize: vertical;
   margin-bottom: 3rem;
-} */
+} 
 
 @media only screen and (max-width: 768px) {
   .contact-center {
@@ -889,7 +893,7 @@ input[type=submit] {
     margin-top: 0;
   }
 }
-/* 
+
 .contact form {
     display: grid;
     grid-gap: 1.5rem;
@@ -940,7 +944,7 @@ input[type=submit] {
 .contact form button:focus {
     background: #92bde7;
     color: #fff;
-} */
+}
 
 @media(max-width:500px) {
     .brand {

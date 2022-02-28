@@ -1,0 +1,30 @@
+$primary-color: #444;
+$secondary-color: #eece1a;
+$show-home-image: true;
+$home-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.viseo.com%2Fen%2Fapac%2Fnews%2Fcoding-dojos-explained-viseo&psig=AOvVaw2MKVxA3QuG62gTpDQUPXDt&ust=1593828428579000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCehvb_r-oCFQAAAAAdAAAAABAG");
+$background-opacity: 0.9;
+
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}
+
+@mixin background {
+  @if $show-home-image {
+    &#bg-img {
+      background: $home-image;
+      background-attachment: fixed;
+      background-size: cover;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: rgba($primary-color, $background-opacity);
+      }
+    }
+  }
+}
